@@ -1,5 +1,11 @@
 # Max & Min Finder
 <p align="center">
+  <a href="https://alexsand-r.github.io/max-end-min/" target="_blank">
+    <strong>🔗 Live Demo</strong>
+  </a>
+</p>
+
+<p align="center">
   <img src="./public/max-min.png" alt="Max & Min Finder preview" width="600"/>
 </p>
 
