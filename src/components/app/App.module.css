@@ -1,0 +1,118 @@
+.block {
+  width: 100%;
+  padding: 30px 15px;
+}
+
+.bodyBox {
+  padding: 40px;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+
+  border-radius: 24px;
+
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.15),
+    0 5px 15px rgba(0, 0, 0, 0.1);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.title {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  max-width: 450px;
+  height: 40px;
+  border: 2px solid gray;
+  border-radius: 6px;
+  padding: 0 15px;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .input {
+    width: 300px;
+  }
+}
+
+.input:focus {
+  outline: 2px solid gainsboro;
+}
+
+.buttonsBlock {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 5px 15px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+.btnGo {
+  background-color: green;
+  transition: all 0.3s ease 0s;
+}
+
+.btnReset {
+  background-color: orange;
+  transition: all 0.3s ease 0s;
+}
+
+.btnGo:hover {
+  background-color: rgb(7, 162, 7);
+}
+
+.btnReset:hover {
+  background-color: rgb(237, 158, 11);
+}
+
+.blockResult {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.blockResult span {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 100%;
+  border: 3px solid #ebbc25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.blockResult p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.min {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
