@@ -7,7 +7,7 @@
 
 **Max & Min Finder** is a small single-page application built with React and TypeScript.
 
-The app allows users to enter a string of space-separated numbers and instantly calculates the minimum and maximum values.  
+The app allows users to enter a string of integers separated by spaces and instantly calculates the minimum and maximum values.  
 
 This project demonstrates my understanding of:
 
